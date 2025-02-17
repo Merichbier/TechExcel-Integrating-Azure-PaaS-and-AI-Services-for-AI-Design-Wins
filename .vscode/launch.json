@@ -16,7 +16,10 @@
       "args": [],
       "cwd": "${workspaceFolder}/src/ContosoSuitesWebAPI",       
       "console": "internalConsole",
-      "stopAtEntry": false     
+      "stopAtEntry": false,
+      "env": {
+          "SQLAZURECONNSTR_ContosoSuites": "Server=tcp:sql-q6od23e2o7ude.database.windows.net,1433;Initial Catalog=ContosoSuitesBookings;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication='Active Directory Default';"
+      },
   },
   {
       "name": "Launch streamlit",
